@@ -1,0 +1,280 @@
+/* BASIC TEXT STUFF */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+
+}
+body {
+  margin-top:50px;
+}
+h1{
+  color: white;
+  font-size: 550%;
+}
+h2{
+  display:inline-block;
+  font-size:450%;
+}
+h4{
+  font-size:270%;
+  display:inline-block;
+
+}
+p{
+  font-size:120%;
+}
+
+
+/* ISSUE SECTION */
+.issue{
+  padding: 30px;
+}
+
+
+/* SOLUTION SECTION */
+.solution{
+  background-color: white;
+  padding: 10px;
+  width: 70%;
+}
+
+
+/* BUTTONS ON HOME */
+button{
+  padding: 10px;
+  border-radius: 23px;
+  width: 20%;
+  border: 2px solid white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  overflow: hidden;
+  outline:none;
+
+  
+/* STATS SECTION */
+}
+#stat1,#stat2,#stat3{
+/*   border: 1px solid black; */
+  align-items:center;
+  width: 20%;
+  height: 30%;
+}
+
+#statistics{
+  align-items:center;
+  zoom: 150%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.animaltesting{
+  align-items:center;
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  order: 2px solid black;
+}
+
+#foundation{
+  object-fit: cover;
+  height: 50%;
+  width: 50%;
+  order: 2px solid black;
+  border-radius: 75px;
+}
+.animal{
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  zoom: 150%;
+}
+#statfontcolor1{
+  color: #fdc168;
+}
+#statfontcolor2{
+  color: #91d1be;
+  
+}
+#statfontcolor3{
+  color: #ec7b7d;
+  
+}
+.statsize{
+  font-size:80%;
+  
+}
+  
+/* NAV BAR */
+.navbar{
+  position: fixed;
+  z-index: 999;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width:100%;
+}
+
+li {
+  float: left;
+  margin-left:25px;
+}
+
+li a {
+  display:inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #fdc168;
+} 
+
+
+
+/* HEADER SECTION */
+.headerimg{
+  object-fit:cover;
+  width: 100%;
+  height:600px;
+  align-items:center;
+
+}
+
+.header{
+/*   position: relative; */
+  text-align:center;
+  width:100%;
+} 
+
+.headertext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+
+
+/* TEAM SECTION */
+.about{
+  display-block:inline;
+  align-items:center;
+  zoom: 150%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.images{
+  display: flex; 
+  justify-content: space-around;
+  padding-left: 15%;
+  padding-right:15%;
+/*   margin-left: 160px;
+  margin-right: 160px; */
+/*   margin: -40px -40px; */
+  
+} 
+.bottom1, .bottom2, .bottom3{
+  width: 30%
+  display:center;
+/*   align-items:center; */
+/*   padding: 15px; */
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+  /* .bottom1{
+    background-color: black;
+  } */
+
+.names{
+  font-size:150%;
+  font-weight: bold;
+}
+.bios{
+  text-align:left;
+  width:110%;
+}
+#sophianame{
+  color: #fdc168;
+}
+#aryaname{
+  color: #91d1be;
+}
+#shivaliname{
+  color: #ec7b7d; 
+}
+
+/* FOOTER SECTION */
+.footer{
+  background-color: #ededed;
+  padding: 40px;
+;
+}
+
+
+/* BUTTON CODE */
+.button{
+  color: white;
+  font-weight: bold;
+  zoom: 150%;
+}
+
+.button:hover {
+  background-color: #fdc168;
+  color: white;
+}
+#joinus{
+  color: black;
+  background-color: #D0D0D0;
+  font-weight: bold;
+  zoom: 150%;
+}
+#joinus:hover {
+  background-color: #fdc168;
+  color: white;
+}
+
+
+/* SOLUTION SECTION */
+ .solutiontext{
+  margin-left:-15%;
+  width: 60%;
+  height:130px;
+  display-block: inline;
+  align-items: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  padding:10px;
+}
+
+.naturalmakeup{
+  zoom: 90%;
+  margin-left:50px;
+  align-item:right;
+  width:210%;
+  height: 300px;
+  object-fit: cover;
+  border: 1px;
+  border-radius: 50%;
+  padding:20px;
+
+}
