@@ -5,4 +5,4 @@ SAS solves the problem of harmful makeup by shinning a light on the lack of vega
 
 In this project, I was primarily in charge of the HTML & CSS.
 
-View project here: https://girlonlineshivali.github.io/sas-website/
+View project here: https://shivaligulati.github.io/sas-website/
